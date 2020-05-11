@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #777;
+  padding: 1rem;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.media-chuk {
+    width: 100%;
+    height: auto;
+}
+
+.paragraph {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.btn-green {
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: 10rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #55c57a;
+    color: #fff;
+}
+
+.control {
+    width: 100%;
+    text-align: center;
+}
+
+.section-main {
+    width: 90%;
+    background-color: #f7f7f7;
+    padding: 1rem;
+}
+
+@media (min-width: 500px) {
+    .section-main{
+        width: 60%;
+        margin: auto;
+    }
+}
