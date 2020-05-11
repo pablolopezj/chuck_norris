@@ -11,7 +11,7 @@ const speakText = (text) => {
         SampleRate: "16000",
         Text: "",
         TextType: "text",
-        VoiceId: "Joanna"
+        VoiceId: (remoteConfig.voice != '') ? remoteConfig.voice: 'Joanna'
     };
 
     speechParams.Text = text;

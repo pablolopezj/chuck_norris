@@ -28,6 +28,7 @@
         </section>
     </main>
     <script src="https://sdk.amazonaws.com/js/aws-sdk-2.673.0.min.js"></script>
+    <script type="text/javascript"> var remoteConfig = {voice: '{{ $voice }}'}; </script>
     <script src="js/main.js" charset="utf-8"></script>
 </body>
 </html>
