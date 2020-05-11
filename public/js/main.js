@@ -35,7 +35,7 @@ const parseJson = (json) => {
 
 const joke = () => {
     const xmlhttp = new XMLHttpRequest();
-    const url = "http://api.icndb.com/jokes/random";
+    const url = "https://api.icndb.com/jokes/random";
 
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {

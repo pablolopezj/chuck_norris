@@ -30,5 +30,15 @@
     <script src="https://sdk.amazonaws.com/js/aws-sdk-2.673.0.min.js"></script>
     <script type="text/javascript"> var remoteConfig = {voice: '{{ $voice }}'}; </script>
     <script src="js/main.js" charset="utf-8"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166230704-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-166230704-1');
+    </script>
+
 </body>
 </html>
